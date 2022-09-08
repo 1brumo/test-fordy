@@ -11,8 +11,7 @@ module.exports = async (client, message) => {
     if(message.content.includes(client.user.id)) return message.reply({
         embeds: [
             new Discord.EmbedBuilder()
-            .setTitle(`✅ **Para ver mis comandos usa \`${data.prefijo}help\`!**`)
-            .setFooter({text: `© desarrollado por !               $𝖗o͟꒒o̶ꪶ    ꪰꪰ,,#0718 | 2022`, iconURL: `https://cdn.discordapp.com/avatars/282942681980862474/7ff4f4ae92af5feb0d258a71cdb0b060.png`})
+            .setDescription("**❌ | Este bot es de pruebas, el bot que debes usar es <@907276472178343987>!**")
             .setColor(client.color)
         ]
     })
@@ -53,7 +52,7 @@ module.exports = async (client, message) => {
 
 /*
 ╔═════════════════════════════════════════════════════╗
-║    || - || Desarrollado por !               $𝖗o͟꒒o̶ꪶ    ꪰꪰ,,#0718 || - ||   ║
+║    || - || Desarrollado por @!               $𝖗o͟꒒o̶ꪶ    ꪰꪰ,,#0718  || - ||   ║
 ║    ----------| discord.gg/MBPsvcphGf |----------    ║
 ╚═════════════════════════════════════════════════════╝
 */

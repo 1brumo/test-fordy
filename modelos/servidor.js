@@ -11,3 +11,9 @@ const model = mongoose.model("ConfigServer", serverSchema);
 
 module.exports = model;
 
+/*
+╔═════════════════════════════════════════════════════╗
+║    || - || Desarrollado por @!               $𝖗o͟꒒o̶ꪶ    ꪰꪰ,,#0718  || - ||   ║
+║    ----------| discord.gg/MBPsvcphGf |----------    ║
+╚═════════════════════════════════════════════════════╝
+*/

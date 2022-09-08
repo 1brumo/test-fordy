@@ -40,3 +40,16 @@ fs.readdirSync('./handlers').forEach(handler => {
 
 client.login(config.token).catch(() => console.log(`-[X]- NO HAS ESPECIFICADO UN TOKEN VALIDO O TE FALTAN INTENTOS -[X]-\n [-] ACTIVA LOS INTENTOS EN https://discord.dev [-]`.red))
 
+// ———————————————[Anti Crash]———————————————
+process.on("unhandledRejection", (reason, p) => {
+    console.log("[ANTICRASH] Unhandled Rejection/Catch".red);
+    console.log(reason, p);
+  });
+  process.on("uncaughtException", (err, origin) => {
+    console.log("[ANTICRASH] Uncaught Exception/Catch".red);
+    console.log(err, origin);
+  });
+  process.on("multipleResolves", (type, promise, reason) => {
+    console.log("[ANTICRASH] Multiple Resolves".red);
+    console.log(type, promise, reason);
+  });

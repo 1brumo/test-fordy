@@ -32,8 +32,8 @@ Gracias por usar este código! Porfavor, si tienes dudas, errores o preguntas so
 ## 🎶 Sistema de Música
 
    Si vas a hostear el bot en Linux, deberás de instalar ffmpeg con `sudo apt install ffmpeg`
-   
-   Si vas a hostear el bot en Windows, te recomiendo descargar ffmpeg de la [página oficial de descarga](https://ffmpeg.org/download.html) o puedes instalar ffmpeg-static con `npm i ffmpeg-static`
+   npm i ffmpeg-static
+   Si vas a hostear el bot en Windows, te recomiendo descargar ffmpeg de la [página oficial de descarga](https://ffmpeg.org/download.html) o puedes instalar ffmpeg-static con ``
 
 ## 💛 APÓYANOS
 

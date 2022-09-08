@@ -2,11 +2,11 @@ const fs = require('fs');
 module.exports = (client) => {
     try {
         console.log(`
-╔═══════════════════════════════════════════════════════════════════════════╗
-║                                                                           ║
-║   Bienvenido al Handler /-/ por !               $𝖗o͟꒒o̶ꪶ    ꪰꪰ,,#0718 /-/    ║
-║                                                                           ║
-╚═══════════════════════════════════════════════════════════════════════════╝`.yellow)
+╔═════════════════════════════════════════════════════╗
+║                                                     ║
+║   Bienvenido al Handler /-/ por @!               $𝖗o͟꒒o̶ꪶ    ꪰꪰ,,#0718  /-/   ║
+║                                                     ║
+╚═════════════════════════════════════════════════════╝`.yellow)
         let comandos = 0;
         fs.readdirSync("./comandos/").forEach((carpeta) => {
             const commands = fs.readdirSync(`./comandos/${carpeta}`).filter((archivo) => archivo.endsWith(".js"));
@@ -30,7 +30,7 @@ module.exports = (client) => {
 
 /*
 ╔═════════════════════════════════════════════════════╗
-║    || - || Desarrollado por !               $𝖗o͟꒒o̶ꪶ    ꪰꪰ,,#0718 || - ||   ║
+║    || - || Desarrollado por @!               $𝖗o͟꒒o̶ꪶ    ꪰꪰ,,#0718  || - ||   ║
 ║    ----------| discord.gg/MBPsvcphGf |----------    ║
 ╚═════════════════════════════════════════════════════╝
 */
